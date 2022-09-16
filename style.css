@@ -1,3 +1,15 @@
+body{
+    background-color: rgba(245, 242, 236, 0.799);
+}
 #nav{
     background-color: rgb(125, 97, 223);
+}
+#first-heading{
+    background-color: rgb(145, 70, 215);
+    /* height: 5rem; */
+}
+#first-heading1{
+    background-color: rgb(122, 122, 230);
+    /* width: 100px;
+    height: 60px; */
 }
