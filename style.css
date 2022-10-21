@@ -13,3 +13,10 @@ body{
     /* width: 100px;
     height: 60px; */
 }
+#products-section{
+    background: rgb(233, 233, 233);
+}
+#see-more{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
