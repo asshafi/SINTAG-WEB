@@ -58,7 +58,7 @@
         <img class="img-fluid" src="images/c.jpg" alt="">
     </header>
     <!-- Main  -->
-    <main >
+    <main class="container" >
         <section class="mb-3">
             <div class="d-flex">
                 <div class=" w-50">
@@ -92,7 +92,7 @@
         </section>
         <!-- products section -->
         <section class="mb-4 mt-4" id="products-section">
-            <h1 class="ps-2">Products</h1>
+            <h1 class="ps-3 pt-3 fw-bold">Products</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 p-3">
                 <div class="col">
                   <div class="card h-100 shadow">
@@ -124,7 +124,57 @@
               </div>
               <button id="see-more" type="button" class="btn btn-primary btn-lg mt-4 text-center">See More</button>
         </section>
+        <!-- Gallery Section -->
+        <section class="mt-4 mb-4">
+            <h1 class="ps-3 pt-3 fw-bold">Gallery</h1>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Images/sixPack.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Images/tricep.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/bicep.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </section>
     </main>
+
+    <!-- footer  -->
+    <footer id="footer">
+        <div>
+            <div class="text-white">
+                <h2>USEFULL LINKS</h2>
+                <ul>
+                    <li>singtag.com.bd</li>
+                    <li>singtag.com.bd</li>
+                    <li>singtag.com.bd</li>
+                    <li>singtag.com.bd</li>
+                </ul>
+            </div>
+            <div class="text-white">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Products</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div></div>
+        </div>
+    </footer>
 
 
 
